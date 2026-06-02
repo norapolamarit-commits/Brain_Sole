@@ -1,0 +1,5 @@
+evalution methadology
+test a model
+1.I simulate dataset for test  and created a solution using a total of 1000 row. I named these images "Ground-truth," and within "groundtruth" there are car 159 objects, person 108 objects, bicycle 53 objects, bus 52 objects, and motorcycle 49 objects.
+2.I tested the trained model using the simulate data .
+3.After obtaining the three rounds of model testing, I ran them using Ground-Truth and recorded TP, FP, and FN values ​​to calculate various performance metrics.
