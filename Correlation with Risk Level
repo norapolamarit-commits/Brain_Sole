@@ -1,0 +1,22 @@
+Correlation with Risk Level
+risk_level                1.000000
+left_pressure             0.841626
+pressure_imbalance        0.821268
+left_right_ratio          0.770900
+fsr_midfoot_left          0.750063
+ground_contact_time_ms    0.717155
+fsr_heel_left             0.692509
+speed_kmh                 0.692424
+total_pressure            0.602017
+fsr_forefoot_left         0.598267
+midfoot_pressure          0.594447
+stride_length_m           0.563426
+heel_pressure             0.402834
+forefoot_pressure         0.179733
+forefoot_heel_ratio      -0.137735
+fsr_midfoot_right        -0.143120
+fsr_heel_right           -0.416278
+fsr_forefoot_right       -0.469176
+right_pressure           -0.560545
+cadence_spm              -0.648411
+Name: risk_level, dtype: float64
