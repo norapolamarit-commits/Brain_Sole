@@ -1,0 +1,8 @@
+#Training Setup
+Training set up:
+Model=Random Forest
+Image Size=640
+Epoch=100 round
+Batch size =64
+Trainning platform = google colab
+GPU=A100
