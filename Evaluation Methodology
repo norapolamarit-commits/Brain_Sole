@@ -1,0 +1,16 @@
+Evaluation Methodology
+Related metrics
+1.TP = True positive, meaning the prediction was correct (the object was present and detected correctly).
+2.FP = False positive, meaning the prediction is too high (no object but model detected).
+3.FN = False negative (have object but model not detect)
+4.precision=value indicates the percentage of objects that the model predicted to be found that were actually encountered.
+by Precision=TP/(TP+FP)
+5.Recall=This value indicates the percentage of actual objects in the image that were detected.
+by Recall=TP/(TP+FN)
+6.Recall missing object rate=the percentage of the actual objects did the model miss? (It should be low.)
+by Missing Object Rate = FN/(TP+FN) = 1-Recal
+7.False positive propotion
+Of all the predictions, what proportion are false alarms? (It should be low.)
+by False Positive Proportion = FP/(TP+FP) = 1-Precision.
+8.FP per image=The average number of false positives per image (should be low).
+by Fp per image = FP/Total number of images
