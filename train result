@@ -1,0 +1,12 @@
+Accuracy: 0.919
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    Low Risk       0.91      0.94      0.92       400
+ Medium Risk       0.90      0.87      0.88       350
+   High Risk       0.97      0.95      0.96       250
+
+    accuracy                           0.92      1000
+   macro avg       0.92      0.92      0.92      1000
+weighted avg       0.92      0.92      0.92      1000
